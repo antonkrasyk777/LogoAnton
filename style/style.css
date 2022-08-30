@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: normal;
+}
+.container{
+    max-width: 1070px;
+    margin: 0 auto;
+}
+.header, .footer{
+    background-color: rgba(255, 113, 67, 0.27);
+    padding: 38px 0 48px;
+}
+.nav_li{
+    display: inline-block;  
+}
+.nav_li:not(:first-of-type){
+    margin-left: 49px;
+}
+.nav_link{
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.468947px;
+    color: #696871;
+    text-decoration: none;
+}
+.nav_link:hover{
+    color: black;
+    transition: 300ms;
+}
+.button{
+    width: 212.39px;
+    height: 60px;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: -0.531474px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.button_orange{
+    background: #FF7143;
+}
+.button_orange:hover{
+    background: #b43a12;
+    transition: 500ms;
+}
+.about_title{
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 77px;
+    letter-spacing: -2.50105px;
+    color: #19191B;
+    max-width: 467px;
+    margin-bottom: 30px;
+}
+.about_text{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.625263px;
+    color: #696871;
+    min-width: 410px;
+    margin-bottom: 50px;
+}
+.button_violet{
+    background: #5454D4;
+}
+.button_transparent{
+    background: none;
+    color: #5454D4;
+    border: 1px solid #5454D4;
+    margin-left: 35px;
+}
+
+.footer{
+    padding: 53px 0;
+}
+.header_flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 104px auto 84px;
+}
+
+ .about_2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+.about_title_2{
+    margin: 38px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 57px;
+    letter-spacing: -1.56316px;
+    color: #19191B;
+}
+.button_transparent{
+    
+    width: 302px;
+    height: 60px;
+ }
+ h3{
+    margin: 85px;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: -1.87579px;
+    color: #19191B;
+    max-width: 467px;
+ }
